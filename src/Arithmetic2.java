@@ -3,7 +3,8 @@ public class Arithmetic2 {
         byte a = 10;
         short b = 15;
 
-        // byte c= a+b; this will give error
+        // byte c= a+b; this will give error   or,
+        // short c= a+b; this will give error
         int c = a + b;
         System.out.println(c);
     }
